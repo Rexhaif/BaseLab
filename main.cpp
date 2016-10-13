@@ -5,7 +5,7 @@ int main() {
     /**
      * String to test their "palindromity"
      */
-    char const * string = "Kaaaksaak";
+    char const * string = "Kak";
 
     /**
      * Calculating size of string
