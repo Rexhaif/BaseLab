@@ -5,6 +5,9 @@ int main() {
 
     char const * string = "Kaaaksaak";
 
+    std::cout << "|Palindrome task|" << std::endl
+              << "Testing string : " << string
+              << std::endl;
     unsigned size = 0;
     for(const char *p = string; *p != '\0'; ++p) {
         size++;
