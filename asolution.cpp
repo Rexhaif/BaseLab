@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
 
     bool isPalindrome = true; //Будем считать что любая строка - палиндром, пока не доказано обратное
     for(unsigned i = 0; i < k; ++i) {
-        if(*(string + i) != *(string + (k - i - 1))) { // оп, словили несовпадение символов
+        if(string [i] != string[k - i - 1]) { // оп, словили несовпадение символов
             isPalindrome = false; //строка больше не является палиндромом
             break; // уходим отсюда
         }
